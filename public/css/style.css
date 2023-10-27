@@ -1,0 +1,275 @@
+/* MY CSS */
+
+/* setting all font */
+body {
+  font-family: Helvetica;
+  font-style: normal;
+}
+/* End setting all font */
+
+/* Setting font p */
+p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.25rem;
+}
+/* End setting font p */
+
+/* Setting font h3 */
+section h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 36px;
+}
+/* End setting font h3 */
+
+/* Icon-check */
+.icon-check {
+  background-color: #cfd4ed;
+  border-radius: 50%;
+  color: #0d28a6;
+  padding: 3px;
+}
+/* End icon-check */
+
+/* btn-light-green */
+.btn-light-green {
+  background-color: #5cb85f;
+  color: #ffffff;
+  border-radius: 2px;
+}
+/* End btn light green */
+
+/* Navbar */
+.navbar {
+  background-color: #f1f3ff;
+}
+
+@media (min-width: 992px) {
+  .navbar-nav li a {
+    color: black !important;
+    font-size: 14px;
+    margin: 0 10px 0 10px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+}
+/* End navbar */
+
+.navbar-nav .nav-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+  background-color: #f1f3ff;
+  height: 400px;
+}
+/* End */
+
+.jumbotron h1 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 150%;
+}
+
+@media screen and (min-width: 1285px) {
+  .img-car {
+    margin-left: 100px;
+    width: 704px;
+    height: 407px;
+  }
+}
+/* End */
+
+/* Services */
+
+.services li {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+/* End */
+
+@media screen and (max-width: 576px) {
+  .services img {
+    width: 15rem;
+  }
+  .services {
+    margin-top: 140px;
+  }
+}
+
+/* Why US */
+@media screen and (min-width: 767px) {
+  .card {
+    width: 18rem;
+  }
+}
+/* End */
+
+.why-us .card-body h5 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+}
+/* End */
+
+/* Testi */
+/* Owl Carousel */
+
+@media screen and (max-width: 576px) {
+  .testi .owl-carousel .item {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .testi .owl-carousel .item .bintang {
+    text-align: center;
+  }
+
+  .testi .owl-carousel .item img {
+    width: 5rem;
+    margin: auto;
+  }
+}
+
+.testi .item {
+  background-color: #f1f3ff;
+  padding: 50px 30px;
+  border-radius: 8px;
+}
+/* End */
+
+.testi button {
+  width: 32px;
+  height: 32px;
+  padding: 5px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 6px;
+}
+/* End */
+
+.testi button.btn-left {
+  background-color: #ffffff;
+  border: 1px solid #222222;
+}
+/* End */
+
+.testi .star {
+  font-size: 30px;
+  color: #f9cc00;
+}
+/* End */
+
+/* Getting Started */
+
+@media screen and (max-width: 576px) {
+  .getting-started .item-jumbo {
+    height: 25rem;
+  }
+}
+
+.item-jumbo {
+  border-radius: 20px;
+  background-color: #0d28a6;
+  color: #ffffff;
+  height: 326px;
+}
+/* End */
+
+.getting-started h2 {
+  font-weight: bold;
+  line-height: 150%;
+}
+/* End */
+
+/* FAQ */
+.faq .accordion button {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+/* End */
+
+/* Sidebar */
+@media (min-width: 992px) {
+  .offcanvas {
+    visibility: visible;
+    position: relative;
+    background: none;
+    border: none;
+  }
+}
+@media (max-width: 992px) {
+  .offcanvas {
+    width: 50% !important;
+  }
+  .offcanvas-start-lg {
+    top: 0;
+    right: 0;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    transform: translateX(100%);
+  }
+  .offcanvas-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .navbar-nav li a {
+    color: black !important;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+}
+/* End */
+
+/* Page Car */
+
+@media screen and (min-width: 1285px) {
+  section.search {
+    margin-top: -140px;
+  }
+}
+
+section.search .card {
+  width: 1275px;
+}
+
+section.search .card .search-btn {
+  margin-top: 38px;
+}
+
+/* remove arrow di input number jumlah penumpang */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* Car */
+
+#waktu-jemput {
+  background: url("../images/page/clock.svg");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+}
+
+#jumlah-penumpang {
+  background: url("../images/page/people.svg");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+}

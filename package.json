@@ -1,0 +1,17 @@
+{
+  "name": "binar-car-rental-challenge-4",
+  "version": "1.0.0",
+  "description": "Project HTTP Server dan DOM",
+  "main": "server/index.js",
+  "author": "Aldi Ageng Tri Seftian",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "dependencies": {
+    "mime-types": "^2.1.35",
+    "nodemon": "^3.0.1"
+  }
+}
